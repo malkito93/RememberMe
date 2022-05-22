@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Material design -->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Crud</title>
+  </head>
+  <body class="bg-dark">
+    
+    <div class="container row">
+    
+      <form 
+      class="col rounded "
+      id="formulario"  
+      style="display:flex; flex-direction: column; height: 50%; max-width: 500px; " >
+
+      <input 
+        type="Date"
+        id="fecha"
+        >
+        
+        <input 
+        class="my-2"
+        type="text" 
+        id="entrada"
+        placeholder="Titulo aqui" >
+        
+      
+        <input 
+        type="text" 
+        id="inputDescripcion"
+        placeholder="Descripcion aqui..." >
+
+        
+        
+        <button 
+        type="submit" 
+        class="btn btn-success my-3 w-50"> Guardar</button>
+      </form>
+      
+      <div 
+      class="py-3"
+      id="listaTareas" 
+      style="    flex-direction: column-reverse;
+      display: flex;
+      ">
+        <!-- Tareas -->
+        <div class="alert alert-success" role="alert">
+          <span class="material-symbols-outlined">
+            save
+            </span>
+          <b>Titulo aqui</b> -Estado
+          <p id="descripcionTexto"> En esta parte ira un texto mi gente, esperenlo</p>
+          <div style="display: flex;
+          justify-content: end; cursor: pointer;">
+            <span class="material-symbols-outlined">
+              done
+              </span>
+              <span class="material-symbols-outlined">
+                delete
+                </span> 
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script src="code.js"></script>
+  </body>
+</html>
