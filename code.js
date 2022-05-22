@@ -80,6 +80,8 @@ listaTareas.addEventListener('click', (e) =>{
 // Notas sobre Git
 
 /**
-git init (para iniciar git)
-
+git init (para iniciar git) Debe salir una U
+git add . (agrega archivos) debe salir con una A
+git commit -m "mensaje aqui"
+git remote add origin "link"
  */
